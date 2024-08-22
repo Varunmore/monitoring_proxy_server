@@ -18,13 +18,31 @@ This Bash script monitors various system resources, providing real-time insights
 Run the script without any switches to see all monitoring sections:
 ```bash
 ./monitor.sh
+```
 
-## You can use the following switches to view specific sections:
+You can use the following switches to view specific sections:
 
-`-cpu`: View system load and CPU usage breakdown.
-`-memory`: View memory usage.
-`-network`: View network monitoring details.
-`-disk`: View disk usage.
-`-apps`: View top 10 most used applications.
-`-process`: View process monitoring details.
-`-services`: View essential service status.
+- `-cpu`: View system load and CPU usage breakdown.
+- `-memory`: View memory usage.
+- `-network`: View network monitoring details.
+- `-disk`: View disk usage.
+- `-apps`: View top 10 most used applications.
+- `-process`: View process monitoring details.
+- `-services`: View essential service status.
+
+Example:
+```bash
+./monitor.sh -cpu
+```
+
+## Installation
+1.Make the script executable:
+```bash
+  chmod +x monitor.sh
+```
+
+2. Run the script:
+```bash
+./monitor.sh
+```
+
